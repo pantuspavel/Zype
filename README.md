@@ -12,7 +12,7 @@ Zype programming challenge
 
 **Features:**
 
-1. Fetch more on scrolling to the bottom
+1. Fetch more on scrolling to the bottom (using pagination)
 
 2. Parallax scrolling effect
 
