@@ -3,10 +3,8 @@ Zype programming challenge
 
 **How to:**
 
-1. Built using Xcode 7.3 beta
+1. pod install
 
-2. pod install
+2. open Zype.xcworkspace
 
-3. open Zype.xcworkspace
-
-4. build and run
+3. build and run (Xcode 7.3 beta)
