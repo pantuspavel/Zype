@@ -3,6 +3,8 @@ Zype programming challenge
 
 **How to:**
 
+0. git clone
+
 1. pod install ([CocoaPods](https://guides.cocoapods.org/using/getting-started.html))
 
 2. open Zype.xcworkspace
