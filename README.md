@@ -14,7 +14,7 @@ Zype programming challenge
 
 1. Fetch more on scrolling to the bottom (using pagination)
 
-2. Parallax scrolling effect
+2. Parallax scrolling effect (tuned to my taste)
 
 3. CoreData
 
