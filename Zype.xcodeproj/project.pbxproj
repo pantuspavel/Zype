@@ -1,0 +1,689 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		51E232259CBBE69240F1DC6D /* Pods_Zype.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 025A02BBB939E4D7FEDCA409 /* Pods_Zype.framework */; };
+		E9745BAB1C93714F009B8FA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9745BAA1C93714F009B8FA5 /* AppDelegate.swift */; };
+		E9745BB31C93714F009B8FA5 /* Zype.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E9745BB11C93714F009B8FA5 /* Zype.xcdatamodeld */; };
+		E9745BB51C93714F009B8FA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9745BB41C93714F009B8FA5 /* Assets.xcassets */; };
+		E9745BC31C937150009B8FA5 /* ZypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9745BC21C937150009B8FA5 /* ZypeTests.swift */; };
+		E9745BCE1C937150009B8FA5 /* ZypeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9745BCD1C937150009B8FA5 /* ZypeUITests.swift */; };
+		E9745BE61C937757009B8FA5 /* ViewControllers in Resources */ = {isa = PBXBuildFile; fileRef = E9745BE51C937757009B8FA5 /* ViewControllers */; };
+		E9745BF51C93794C009B8FA5 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9745BF41C93794C009B8FA5 /* MainTableViewController.swift */; };
+		E9745C031C93840A009B8FA5 /* TVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9745C021C93840A009B8FA5 /* TVideo.swift */; };
+		E9745C061C938603009B8FA5 /* Transport.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9745C051C938603009B8FA5 /* Transport.swift */; };
+		E9745C0A1C9386DE009B8FA5 /* AsyncOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9745C081C9386DE009B8FA5 /* AsyncOperation.swift */; };
+		E9745C0B1C9386DE009B8FA5 /* SelectVideosOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9745C091C9386DE009B8FA5 /* SelectVideosOperation.swift */; };
+		E9745C0D1C9386F6009B8FA5 /* ServerAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9745C0C1C9386F6009B8FA5 /* ServerAPI.swift */; };
+		E9745C0F1C945F31009B8FA5 /* VideoViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9745C0E1C945F31009B8FA5 /* VideoViewCell.swift */; };
+		E9745C121C94B731009B8FA5 /* ServerAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9745C111C94B731009B8FA5 /* ServerAPITests.swift */; };
+		E9E441D81C94DE8400237889 /* DBConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E441D71C94DE8400237889 /* DBConfigurator.swift */; };
+		E9E441DD1C94E0B100237889 /* VideosModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E441DC1C94E0B100237889 /* VideosModel.swift */; };
+		E9E441E01C94E2F700237889 /* Video+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E441DE1C94E2F700237889 /* Video+CoreDataProperties.swift */; };
+		E9E441E11C94E2F700237889 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E441DF1C94E2F700237889 /* Video.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E9745BBF1C937150009B8FA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9745B9F1C93714F009B8FA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9745BA61C93714F009B8FA5;
+			remoteInfo = Zype;
+		};
+		E9745BCA1C937150009B8FA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9745B9F1C93714F009B8FA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9745BA61C93714F009B8FA5;
+			remoteInfo = Zype;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		025A02BBB939E4D7FEDCA409 /* Pods_Zype.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zype.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		051E24AB6DD58D121117CCCD /* Pods-Zype.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zype.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Zype/Pods-Zype.debug.xcconfig"; sourceTree = "<group>"; };
+		E17FB9B1D7527920775AD3B9 /* Pods-Zype.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zype.release.xcconfig"; path = "Pods/Target Support Files/Pods-Zype/Pods-Zype.release.xcconfig"; sourceTree = "<group>"; };
+		E9745BA71C93714F009B8FA5 /* Zype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zype.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9745BAA1C93714F009B8FA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E9745BB21C93714F009B8FA5 /* Zype.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Zype.xcdatamodel; sourceTree = "<group>"; };
+		E9745BB41C93714F009B8FA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E9745BB91C93714F009B8FA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9745BBE1C937150009B8FA5 /* ZypeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZypeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9745BC21C937150009B8FA5 /* ZypeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZypeTests.swift; sourceTree = "<group>"; };
+		E9745BC41C937150009B8FA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9745BC91C937150009B8FA5 /* ZypeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZypeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9745BCD1C937150009B8FA5 /* ZypeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZypeUITests.swift; sourceTree = "<group>"; };
+		E9745BCF1C937150009B8FA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9745BE51C937757009B8FA5 /* ViewControllers */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ViewControllers; path = /Users/pavel/Downloads/Zype/Zype/ViewControllers; sourceTree = "<absolute>"; };
+		E9745BF41C93794C009B8FA5 /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		E9745C021C93840A009B8FA5 /* TVideo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVideo.swift; sourceTree = "<group>"; };
+		E9745C051C938603009B8FA5 /* Transport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transport.swift; sourceTree = "<group>"; };
+		E9745C081C9386DE009B8FA5 /* AsyncOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncOperation.swift; sourceTree = "<group>"; };
+		E9745C091C9386DE009B8FA5 /* SelectVideosOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectVideosOperation.swift; sourceTree = "<group>"; };
+		E9745C0C1C9386F6009B8FA5 /* ServerAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerAPI.swift; sourceTree = "<group>"; };
+		E9745C0E1C945F31009B8FA5 /* VideoViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoViewCell.swift; sourceTree = "<group>"; };
+		E9745C111C94B731009B8FA5 /* ServerAPITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerAPITests.swift; sourceTree = "<group>"; };
+		E9E441D71C94DE8400237889 /* DBConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBConfigurator.swift; sourceTree = "<group>"; };
+		E9E441DC1C94E0B100237889 /* VideosModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideosModel.swift; sourceTree = "<group>"; };
+		E9E441DE1C94E2F700237889 /* Video+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Video+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E9E441DF1C94E2F700237889 /* Video.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9745BA41C93714F009B8FA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51E232259CBBE69240F1DC6D /* Pods_Zype.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9745BBB1C937150009B8FA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9745BC61C937150009B8FA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA8B1955ADC8D495822933F5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				051E24AB6DD58D121117CCCD /* Pods-Zype.debug.xcconfig */,
+				E17FB9B1D7527920775AD3B9 /* Pods-Zype.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E4724D83F276050C2E5E329B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				025A02BBB939E4D7FEDCA409 /* Pods_Zype.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9745B9E1C93714F009B8FA5 = {
+			isa = PBXGroup;
+			children = (
+				E9745BA91C93714F009B8FA5 /* Zype */,
+				E9745BC11C937150009B8FA5 /* ZypeTests */,
+				E9745BCC1C937150009B8FA5 /* ZypeUITests */,
+				E9745BA81C93714F009B8FA5 /* Products */,
+				AA8B1955ADC8D495822933F5 /* Pods */,
+				E4724D83F276050C2E5E329B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E9745BA81C93714F009B8FA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9745BA71C93714F009B8FA5 /* Zype.app */,
+				E9745BBE1C937150009B8FA5 /* ZypeTests.xctest */,
+				E9745BC91C937150009B8FA5 /* ZypeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9745BA91C93714F009B8FA5 /* Zype */ = {
+			isa = PBXGroup;
+			children = (
+				E9E441DB1C94E0B100237889 /* Models */,
+				E9E441D61C94DE8400237889 /* Database */,
+				E9745C041C938603009B8FA5 /* Transport */,
+				E9745BFA1C937C92009B8FA5 /* ServerAPI */,
+				E9745BF21C93794C009B8FA5 /* ViewControllers */,
+				E9745BAA1C93714F009B8FA5 /* AppDelegate.swift */,
+				E9745BB41C93714F009B8FA5 /* Assets.xcassets */,
+				E9745BB91C93714F009B8FA5 /* Info.plist */,
+			);
+			path = Zype;
+			sourceTree = "<group>";
+		};
+		E9745BC11C937150009B8FA5 /* ZypeTests */ = {
+			isa = PBXGroup;
+			children = (
+				E9745BC21C937150009B8FA5 /* ZypeTests.swift */,
+				E9745BC41C937150009B8FA5 /* Info.plist */,
+				E9745C111C94B731009B8FA5 /* ServerAPITests.swift */,
+			);
+			path = ZypeTests;
+			sourceTree = "<group>";
+		};
+		E9745BCC1C937150009B8FA5 /* ZypeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E9745BCD1C937150009B8FA5 /* ZypeUITests.swift */,
+				E9745BCF1C937150009B8FA5 /* Info.plist */,
+			);
+			path = ZypeUITests;
+			sourceTree = "<group>";
+		};
+		E9745BF21C93794C009B8FA5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E9745BF31C93794C009B8FA5 /* Main */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E9745BF31C93794C009B8FA5 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E9745BF41C93794C009B8FA5 /* MainTableViewController.swift */,
+				E9745C0E1C945F31009B8FA5 /* VideoViewCell.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		E9745BFA1C937C92009B8FA5 /* ServerAPI */ = {
+			isa = PBXGroup;
+			children = (
+				E9745C071C9386DE009B8FA5 /* Operations */,
+				E9745BFC1C937C92009B8FA5 /* Structs */,
+				E9745C0C1C9386F6009B8FA5 /* ServerAPI.swift */,
+			);
+			path = ServerAPI;
+			sourceTree = "<group>";
+		};
+		E9745BFC1C937C92009B8FA5 /* Structs */ = {
+			isa = PBXGroup;
+			children = (
+				E9745C021C93840A009B8FA5 /* TVideo.swift */,
+			);
+			path = Structs;
+			sourceTree = "<group>";
+		};
+		E9745C041C938603009B8FA5 /* Transport */ = {
+			isa = PBXGroup;
+			children = (
+				E9745C051C938603009B8FA5 /* Transport.swift */,
+			);
+			path = Transport;
+			sourceTree = "<group>";
+		};
+		E9745C071C9386DE009B8FA5 /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				E9745C081C9386DE009B8FA5 /* AsyncOperation.swift */,
+				E9745C091C9386DE009B8FA5 /* SelectVideosOperation.swift */,
+			);
+			path = Operations;
+			sourceTree = "<group>";
+		};
+		E9E441D61C94DE8400237889 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				E9745BB11C93714F009B8FA5 /* Zype.xcdatamodeld */,
+				E9E441DE1C94E2F700237889 /* Video+CoreDataProperties.swift */,
+				E9E441DF1C94E2F700237889 /* Video.swift */,
+				E9E441D71C94DE8400237889 /* DBConfigurator.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		E9E441DB1C94E0B100237889 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E9E441DC1C94E0B100237889 /* VideosModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9745BA61C93714F009B8FA5 /* Zype */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9745BD21C937150009B8FA5 /* Build configuration list for PBXNativeTarget "Zype" */;
+			buildPhases = (
+				80300F067AFCAD5F55687006 /* Check Pods Manifest.lock */,
+				E9745BA31C93714F009B8FA5 /* Sources */,
+				E9745BA41C93714F009B8FA5 /* Frameworks */,
+				E9745BA51C93714F009B8FA5 /* Resources */,
+				5F0052A3A381C292C0D09556 /* Embed Pods Frameworks */,
+				CB99A8AD369A60BA7E0066B2 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Zype;
+			productName = Zype;
+			productReference = E9745BA71C93714F009B8FA5 /* Zype.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E9745BBD1C937150009B8FA5 /* ZypeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9745BD51C937150009B8FA5 /* Build configuration list for PBXNativeTarget "ZypeTests" */;
+			buildPhases = (
+				E9745BBA1C937150009B8FA5 /* Sources */,
+				E9745BBB1C937150009B8FA5 /* Frameworks */,
+				E9745BBC1C937150009B8FA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9745BC01C937150009B8FA5 /* PBXTargetDependency */,
+			);
+			name = ZypeTests;
+			productName = ZypeTests;
+			productReference = E9745BBE1C937150009B8FA5 /* ZypeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E9745BC81C937150009B8FA5 /* ZypeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9745BD81C937150009B8FA5 /* Build configuration list for PBXNativeTarget "ZypeUITests" */;
+			buildPhases = (
+				E9745BC51C937150009B8FA5 /* Sources */,
+				E9745BC61C937150009B8FA5 /* Frameworks */,
+				E9745BC71C937150009B8FA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9745BCB1C937150009B8FA5 /* PBXTargetDependency */,
+			);
+			name = ZypeUITests;
+			productName = ZypeUITests;
+			productReference = E9745BC91C937150009B8FA5 /* ZypeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9745B9F1C93714F009B8FA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Pavel Pantus";
+				TargetAttributes = {
+					E9745BA61C93714F009B8FA5 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					E9745BBD1C937150009B8FA5 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = E9745BA61C93714F009B8FA5;
+					};
+					E9745BC81C937150009B8FA5 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = E9745BA61C93714F009B8FA5;
+					};
+				};
+			};
+			buildConfigurationList = E9745BA21C93714F009B8FA5 /* Build configuration list for PBXProject "Zype" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E9745B9E1C93714F009B8FA5;
+			productRefGroup = E9745BA81C93714F009B8FA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9745BA61C93714F009B8FA5 /* Zype */,
+				E9745BBD1C937150009B8FA5 /* ZypeTests */,
+				E9745BC81C937150009B8FA5 /* ZypeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9745BA51C93714F009B8FA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9745BB51C93714F009B8FA5 /* Assets.xcassets in Resources */,
+				E9745BE61C937757009B8FA5 /* ViewControllers in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9745BBC1C937150009B8FA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9745BC71C937150009B8FA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5F0052A3A381C292C0D09556 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Zype/Pods-Zype-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80300F067AFCAD5F55687006 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CB99A8AD369A60BA7E0066B2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Zype/Pods-Zype-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9745BA31C93714F009B8FA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9E441D81C94DE8400237889 /* DBConfigurator.swift in Sources */,
+				E9745C0F1C945F31009B8FA5 /* VideoViewCell.swift in Sources */,
+				E9745BF51C93794C009B8FA5 /* MainTableViewController.swift in Sources */,
+				E9E441DD1C94E0B100237889 /* VideosModel.swift in Sources */,
+				E9745BB31C93714F009B8FA5 /* Zype.xcdatamodeld in Sources */,
+				E9745C031C93840A009B8FA5 /* TVideo.swift in Sources */,
+				E9745C0D1C9386F6009B8FA5 /* ServerAPI.swift in Sources */,
+				E9745BAB1C93714F009B8FA5 /* AppDelegate.swift in Sources */,
+				E9745C0B1C9386DE009B8FA5 /* SelectVideosOperation.swift in Sources */,
+				E9E441E11C94E2F700237889 /* Video.swift in Sources */,
+				E9745C0A1C9386DE009B8FA5 /* AsyncOperation.swift in Sources */,
+				E9745C061C938603009B8FA5 /* Transport.swift in Sources */,
+				E9E441E01C94E2F700237889 /* Video+CoreDataProperties.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9745BBA1C937150009B8FA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9745BC31C937150009B8FA5 /* ZypeTests.swift in Sources */,
+				E9745C121C94B731009B8FA5 /* ServerAPITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9745BC51C937150009B8FA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9745BCE1C937150009B8FA5 /* ZypeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E9745BC01C937150009B8FA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9745BA61C93714F009B8FA5 /* Zype */;
+			targetProxy = E9745BBF1C937150009B8FA5 /* PBXContainerItemProxy */;
+		};
+		E9745BCB1C937150009B8FA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9745BA61C93714F009B8FA5 /* Zype */;
+			targetProxy = E9745BCA1C937150009B8FA5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E9745BD01C937150009B8FA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E9745BD11C937150009B8FA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9745BD31C937150009B8FA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 051E24AB6DD58D121117CCCD /* Pods-Zype.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Zype/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Pavel.Zype;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E9745BD41C937150009B8FA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E17FB9B1D7527920775AD3B9 /* Pods-Zype.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Zype/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Pavel.Zype;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E9745BD61C937150009B8FA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZypeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Pavel.ZypeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zype.app/Zype";
+			};
+			name = Debug;
+		};
+		E9745BD71C937150009B8FA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZypeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Pavel.ZypeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zype.app/Zype";
+			};
+			name = Release;
+		};
+		E9745BD91C937150009B8FA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZypeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Pavel.ZypeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Zype;
+			};
+			name = Debug;
+		};
+		E9745BDA1C937150009B8FA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZypeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Pavel.ZypeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Zype;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9745BA21C93714F009B8FA5 /* Build configuration list for PBXProject "Zype" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9745BD01C937150009B8FA5 /* Debug */,
+				E9745BD11C937150009B8FA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9745BD21C937150009B8FA5 /* Build configuration list for PBXNativeTarget "Zype" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9745BD31C937150009B8FA5 /* Debug */,
+				E9745BD41C937150009B8FA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9745BD51C937150009B8FA5 /* Build configuration list for PBXNativeTarget "ZypeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9745BD61C937150009B8FA5 /* Debug */,
+				E9745BD71C937150009B8FA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9745BD81C937150009B8FA5 /* Build configuration list for PBXNativeTarget "ZypeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9745BD91C937150009B8FA5 /* Debug */,
+				E9745BDA1C937150009B8FA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E9745BB11C93714F009B8FA5 /* Zype.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E9745BB21C93714F009B8FA5 /* Zype.xcdatamodel */,
+			);
+			currentVersion = E9745BB21C93714F009B8FA5 /* Zype.xcdatamodel */;
+			name = Zype.xcdatamodeld;
+			path = ../Zype.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E9745B9F1C93714F009B8FA5 /* Project object */;
+}
