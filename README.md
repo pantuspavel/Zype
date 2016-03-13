@@ -19,3 +19,7 @@ Zype programming challenge
 3. CoreData
 
 4. NSOperation as an async network operation
+
+5. Unit tests
+
+6. UI Test
