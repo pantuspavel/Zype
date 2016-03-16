@@ -9,7 +9,7 @@ Zype programming challenge
 
 2. open Zype.xcworkspace
 
-3. build and run (Xcode 7.3 beta)
+3. build and run (Tested with Xcode 7.2.1 (7C1002))
 
 
 **Features:**
