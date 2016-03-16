@@ -60,7 +60,7 @@
 		E9745BC91C937150009B8FA5 /* ZypeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZypeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9745BCD1C937150009B8FA5 /* ZypeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZypeUITests.swift; sourceTree = "<group>"; };
 		E9745BCF1C937150009B8FA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E9745BE51C937757009B8FA5 /* ViewControllers */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ViewControllers; path = /Users/pavel/Downloads/Zype/Zype/ViewControllers; sourceTree = "<absolute>"; };
+		E9745BE51C937757009B8FA5 /* ViewControllers */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ViewControllers; path = "Zype/ViewControllers"; sourceTree = "<absolute>"; };
 		E9745BF41C93794C009B8FA5 /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
 		E9745C021C93840A009B8FA5 /* TVideo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVideo.swift; sourceTree = "<group>"; };
 		E9745C051C938603009B8FA5 /* Transport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transport.swift; sourceTree = "<group>"; };
